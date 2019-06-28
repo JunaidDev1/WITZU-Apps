@@ -1,0 +1,7 @@
+{
+  "name": "WITZU",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
