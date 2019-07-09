@@ -1,0 +1,23 @@
+page-signup {
+
+  ion-content {
+    img {
+      width: 120px !important;
+      margin-bottom: 2em;
+    }
+
+    ion-label {
+      margin-bottom: 5px !important;
+    }
+
+    ion-item {
+      padding-left: 0px !important;
+      border: 1px solid #dedede !important;
+
+      ion-input {
+        padding-left: 5px !important;
+      }
+    }
+  }
+
+}

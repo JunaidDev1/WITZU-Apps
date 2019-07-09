@@ -1,0 +1,64 @@
+page-signup-b {
+
+  ion-content {
+    img {
+      width: 120px !important;
+      margin-bottom: 2em;
+    }
+
+    ion-label {
+      margin-bottom: 5px !important;
+    }
+
+    ion-item {
+      padding-left: 0px !important;
+      border: 1px solid #dedede !important;
+
+      ion-input {
+        padding-left: 5px !important;
+      }
+
+      ion-label {
+        margin-top: 0px !important;
+        white-space: normal !important;
+      }
+    }
+  }
+
+  ion-list {
+    ion-item {
+      background-color: color($colors, lighter) !important;
+      padding: 0px !important;
+      border: 1px solid !important;
+      margin-bottom: 1em !important;
+      border-color: color($colors, primary) !important;
+
+      ion-label {
+        text-align: center !important;
+        margin: 0px !important;
+      }
+
+      .item-inner {
+        border: none !important;
+        padding: 0px !important;
+      }
+
+      .radio {
+        margin: 0px !important;
+      }
+
+      .radio-icon {
+        display: none !important;
+      }
+    }
+
+    .item-radio-checked {
+      background-color: color($colors, primary) !important;
+
+      ion-label {
+        color: #ffffff !important;
+      }
+    }
+  }
+
+}

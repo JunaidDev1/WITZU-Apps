@@ -1,3 +1,26 @@
 page-home {
-
+    .scroll-content {
+        padding-bottom: 70px !important;
+    }
+    ion-content {
+        ion-col {
+            img {
+                width: 90px;
+                height: 90px;
+                object-fit: cover;
+                border-radius: 50%;
+                box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+            }
+            p {
+                margin-top: 5px;
+                ion-icon {
+                    font-size: 16px;
+                }
+            }
+        }
+        hr {
+            margin: 0px 0px 5px !important;
+            height: 5px;
+        }
+    }
 }
