@@ -12,6 +12,7 @@ import { SignupPage } from '../pages/signup/signup';
 import { SignupBPage } from '../pages/signup-b/signup-b';
 import { ResetPasswordPage } from '../pages/reset-password/reset-password';
 import { TabbarComponent } from '../components/tabbar/tabbar';
+import { FoodDetailPage } from '../pages/food-detail/food-detail';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { TabbarComponent } from '../components/tabbar/tabbar';
     SignupBPage,
     SignupPage,
     ResetPasswordPage,
-    TabbarComponent
+    TabbarComponent,
+    FoodDetailPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { TabbarComponent } from '../components/tabbar/tabbar';
     LoginPage,
     SignupBPage,
     SignupPage,
-    ResetPasswordPage
+    ResetPasswordPage,
+    FoodDetailPage
   ],
   providers: [
     StatusBar,
